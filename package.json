@@ -1,8 +1,8 @@
 {
-  "name": "rell-fi",
+  "name": "web3-dapp-template",
   "version": "0.0.1",
-  "description": "Multi staking",
-  "author": "GeeknSeek@1337.no",
+  "description": "web3-dapp-template",
+  "author": "coinmaster4you@protonmail.com",
   "main": "index.js",
   "private": true,
   "devDependencies": {
