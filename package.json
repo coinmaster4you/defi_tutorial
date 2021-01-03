@@ -4,10 +4,7 @@
   "description": "web3-dapp-template",
   "author": "coinmaster4you",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/coinmaster4you/web3-dapp-template.git"
-  },
+  "repository": "https://github.com/coinmaster4you/web3-dapp-template.git",
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
@@ -48,5 +45,6 @@
     "popper.js": "^1.14.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  }
+  },
+  "license": "MIT"
 }

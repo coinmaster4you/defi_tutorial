@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@assemblyscript/loader@^0.17.13":
-  version "0.17.13"
-  resolved "https://registry.yarnpkg.com/@assemblyscript/loader/-/loader-0.17.13.tgz#0e43a19b095f12f636183d60660bfd5a6216b858"
-  integrity sha512-vQpXbqJRV4/KPyfl7dQYCNwUdocGilO+goxwyHivQM4w7TrAkPDodpj4bfY9zy0aeXD9YGjLRuEP3OCfSPYsCQ==
-
 assemblyscript@^0.17.13:
   version "0.17.13"
   resolved "https://registry.yarnpkg.com/assemblyscript/-/assemblyscript-0.17.13.tgz#2006601985beca63018a5f76933066de060ddda5"
