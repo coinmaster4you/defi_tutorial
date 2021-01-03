@@ -1,0 +1,9 @@
+{
+  "name": "web3-wasam",
+  "version": "1.0.0",
+  "description": "web3 full intigration for basic usage template. written in assemblyscript",
+  "main": "index.ts",
+  "author": "coinmaster4you",
+  "license": "MIT",
+  "private": true
+}
