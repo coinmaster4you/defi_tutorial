@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "Multi staking",
   "author": "GeeknSeek@1337.no",
-  "main": "app.js",
+  "main": "index.js",
   "private": true,
   "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.0.4",
     "bootstrap": "4.3.1",
     "chai": "4.2.0",
@@ -22,8 +24,8 @@
     "webpack-cli": "^3.1.2"
   },
   "scripts": {
-    "dev": "node ./task/index.js && parcel ./src/index.html",
-    "build": "node ./task/index.js && parcel build ./src/index.html"
+    "dev": "node ./task/index.js && parcel ./src/public/index.html",
+    "build": "node ./task/index.js && parcel build ./src/public/index.html"
   },
   "browserslist": [
     ">0.2%",
