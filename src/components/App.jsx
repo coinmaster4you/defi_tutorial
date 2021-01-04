@@ -9,7 +9,7 @@ import './App.css'
 
 class App extends Component {
 
-  async componentWillMount() {
+  async UNSAFE_componentWillMount() {
     await this.loadWeb3()
     await this.loadBlockchainData()
   }
@@ -120,17 +120,9 @@ class App extends Component {
         <Navbar account={this.state.account} />
         <div className="container-fluid mt-5">
           <div className="row">
-            <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '600px' }}>
+            <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '700px' }}>
               <div className="content mr-auto ml-auto">
-                <a
-                  href="http://www.dappuniversity.com/bootcamp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                </a>
-
                 {content}
-
               </div>
             </main>
           </div>

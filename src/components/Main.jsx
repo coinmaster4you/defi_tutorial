@@ -6,7 +6,6 @@ class Main extends Component {
   render() {
     return (
       <div id="content" className="mt-3">
-
         <table className="table table-borderless text-muted text-center">
           <thead>
             <tr>
@@ -66,7 +65,6 @@ class Main extends Component {
               </button>
           </div>
         </div>
-
       </div>
     );
   }
